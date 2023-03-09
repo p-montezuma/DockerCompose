@@ -22,4 +22,4 @@ steps:
     containerregistrytype: 'Azure Container Registry'
     dockerComposeFile: '**/docker-compose-v3-dynamic-grid.yml'
     action: 'Run a Docker Compose command'
-    dockerComposeCommand: 'up'
+    dockerComposeCommand: 'up --build --no-start'
